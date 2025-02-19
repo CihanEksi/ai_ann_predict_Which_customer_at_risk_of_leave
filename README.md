@@ -1,6 +1,5 @@
 # Customer Churn Prediction Model
-
-A deep learning model to predict which customers are at risk of leaving using Artificial Neural Networks (ANN).
+I trained a deep learning model to predict which customers are at risk of leaving using Artificial Neural Networks (ANN).
 
 ## Overview
 
