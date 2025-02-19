@@ -6,6 +6,33 @@ A deep learning model to predict which customers are at risk of leaving using Ar
 
 This project implements a customer churn prediction system using TensorFlow/Keras. It analyzes various customer attributes to predict the likelihood of a customer leaving the service.
 
+
+## What I Did?
+
+I developed this customer churn prediction model from scratch using the following approach:
+
+
+1. **Model Development**
+   - Built a custom Neural Network using TensorFlow/Keras
+   - Implemented a 4-layer architecture:
+     * Input Layer: Matches feature dimensions
+     * First Hidden Layer: 64 neurons with ReLU activation
+     * Second Hidden Layer: 32 neurons with ReLU activation
+     * Output Layer: Single neuron with Sigmoid activation for binary classification
+
+2. **Model Training Process**
+   - Split data into training (80%) and testing (20%) sets
+   - Implemented Early Stopping to prevent overfitting
+   - Used Adam optimizer with Binary Cross-Entropy loss
+   - Monitored training progress using TensorBoard
+   - Achieved good accuracy in predicting customer churn
+
+3. **Model Deployment**
+   - Saved trained model and preprocessing components
+   - Created prediction pipeline for real-time inference
+   - Implemented JSON output format for easy integration
+
+
 ## Project Structure
 
 - `train.py` - Training script for the ANN model
