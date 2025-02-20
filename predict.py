@@ -87,9 +87,9 @@ def predict(input_data):
     ratio = float(predictionRate)
 
     if predictionRate > 0.5:
-        print(json.dumps({"hasLeaveRisk": True,"prodiction_ratio":ratio}))
+        print(json.dumps({"hasLeaveRisk": True,"prediction_ratio":ratio}))
     else:
-        print(json.dumps({"hasLeaveRisk": False,"prodiction_ratio":ratio}))
+        print(json.dumps({"hasLeaveRisk": False,"prediction_ratio":ratio}))
 
     
 
